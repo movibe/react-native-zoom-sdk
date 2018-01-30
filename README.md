@@ -1,5 +1,11 @@
 
 # react-native-zoom-sdk
+## iOS Dev Tutorial
+
+ - Download the sdk version for iOS on the link https://dev.zoomlogin.com/zoomsdk/#/docs
+ - Create a directory folder ~/Documents/ZoomSDK and paste the ZoomAuthentication.framework file 
+ - Check if the directory looks like this ~/Documents/ZoomSDK/ZoomAuthentication.framework
+
 
 ## Getting started
 
