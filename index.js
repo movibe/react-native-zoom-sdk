@@ -1,4 +1,4 @@
-import { NativeModules, Platform } from 'react-native'
+import { NativeModules } from 'react-native'
 
 const { RNReactNativeZoomSdk } = NativeModules
 
@@ -8,7 +8,7 @@ ZoomAuth.getVersion = () =>
     RNReactNativeZoomSdk.getVersion()
 
 ZoomAuth.initialize = (appToken, secret, userId, encrypt) =>
-    Platform.OS === RNReactNativeZoomSdk.initialize(appToken, secret, userId, encrypt)
+    RNReactNativeZoomSdk.initialize(appToken, secret, userId, encrypt)
 
 ZoomAuth.onEnroll = () =>
     RNReactNativeZoomSdk.onEnroll()
