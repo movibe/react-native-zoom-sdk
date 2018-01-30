@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8581B3182020D9CE00ED45A2 /* ZoomAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8581B3172020D9CE00ED45A2 /* ZoomAuthentication.framework */; };
+		8581B7FC2020F24900985D29 /* ZoomAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8581B7FB2020F24900985D29 /* ZoomAuthentication.framework */; };
 		858B090E2020BAD600C97984 /* ZoomViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858B090D2020BAD600C97984 /* ZoomViewer.swift */; };
 		85B6B0F92018C5EA00A70FDA /* ZoomAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B6B0F82018C5EA00A70FDA /* ZoomAuth.swift */; };
 		B3E7B58A1CC2AC0600A0062D /* RNReactNativeZoomSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNReactNativeZoomSdk.m */; };
@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNReactNativeZoomSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNReactNativeZoomSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8581B3172020D9CE00ED45A2 /* ZoomAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZoomAuthentication.framework; sourceTree = "<group>"; };
+		8581B7FB2020F24900985D29 /* ZoomAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZoomAuthentication.framework; path = ../../../../../../Documents/ZoomSDK/ZoomAuthentication.framework; sourceTree = "<group>"; };
 		858B090D2020BAD600C97984 /* ZoomViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewer.swift; sourceTree = "<group>"; };
 		85B6B0F72018C5E900A70FDA /* RNReactNativeZoomSdk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNReactNativeZoomSdk-Bridging-Header.h"; sourceTree = "<group>"; };
 		85B6B0F82018C5EA00A70FDA /* ZoomAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAuth.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8581B3182020D9CE00ED45A2 /* ZoomAuthentication.framework in Frameworks */,
+				8581B7FC2020F24900985D29 /* ZoomAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,14 +66,14 @@
 				85B6B0FD2018C6A300A70FDA /* ZoomConfigurationForTestApplication.xcconfig */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				85B6B0F72018C5E900A70FDA /* RNReactNativeZoomSdk-Bridging-Header.h */,
-				85B6B0FA2018C66500A70FDA /* Frameworks */,
+				8581B7FA2020F24900985D29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		85B6B0FA2018C66500A70FDA /* Frameworks */ = {
+		8581B7FA2020F24900985D29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8581B3172020D9CE00ED45A2 /* ZoomAuthentication.framework */,
+				8581B7FB2020F24900985D29 /* ZoomAuthentication.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,6 +233,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"~/Documents/ZoomSDK",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -259,6 +260,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"~/Documents/ZoomSDK",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
