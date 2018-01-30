@@ -10,10 +10,9 @@
         "react-native"
     ],
     "author": "Willian Ribeiro <agfoccus@gmail.com>",
-    "license": "",
+    "license": "private",
     "peerDependencies": {
-        "react-native": "^0.41.2",
-        "react-native-windows": "0.41.0-rc.1"
+        "react-native": "^0.41.2"
     },
     "dependencies": {
         "speedtest-net": "^1.3.2"
